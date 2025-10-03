@@ -1,0 +1,21 @@
+import os
+os.system("cls")
+
+#Criando a funçao.
+
+def saudacao(nome,idade,peso,altura):
+    print(f"Ola, {nome}! Seja Bem-Vindo(a)")
+    print(f"Sua idade é {idade} anos.")
+    print(f"Seu peso é {peso} kg. ")
+    print(f"Sua altura é {altura} Metros ")
+
+
+nome = input("Informe seu nome: ")
+idade = int(input("Informe sua idade: "))
+peso = input("Informe seu peso.")
+altura = input("Informe sua altura. ")
+os.system("cls")
+
+
+# Chamando a funçao.
+saudacao(nome,idade,peso,altura)
